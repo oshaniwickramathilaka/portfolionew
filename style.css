@@ -1,0 +1,268 @@
+body{
+    background-image: linear-gradient(purple,black);
+}
+    
+{
+    margin:0px;
+    padding:20 px;
+    box-sizing:border-box;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    position: sticky;
+}
+.navbar ul{
+    display: flex;
+    margin: 20px 20px;
+}
+.navbar ul li{
+    font-family: century;
+    font-weight: bold;
+}
+.navbar ul li a{
+    color:aliceblue;
+    padding: 8px 25px;
+    transition: all.2s ease;
+}
+.navbar ul li a:hover{
+    background-color: aliceblue;
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    
+}
+h2{
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    
+}
+
+img{
+    
+    border-radius: 40%;
+    border: 3px solid white ;
+    padding: 50px;
+}
+h3{
+    color:grey;
+    font-size: x-large;
+    text-align: right;
+    padding: 50px;
+}
+p{
+    color:azure;
+    font-size:x-large;
+    text-align: right;
+    padding: 50px;
+}
+
+button{
+    display: block;
+    padding: 30px 30px;
+    text-align: right;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: auto;
+    color: azure;
+    letter-spacing: 4px;
+    font-size: 40px;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+button:hover{
+    color: black;
+    
+    background:rgb(214, 45, 214);
+    box-shadow: 0 0 10px gray,0 0 40px gray,0 0 80px gray;
+}
+
+
+h4{
+    color: white;
+    font-size: xx-large;
+    padding-top: 400px ;
+    text-align: center;
+    
+    
+}
+p{  
+    font-size: larger;
+    color: azure;
+    text-align: end;
+    background-color: rgb(9, 9, 61);
+    
+}
+button2{
+    padding: 15px 15px;
+    background-color:blue;
+    color: beige;
+    font-size: medium;
+    margin: auto;
+    text-align: right;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all .3s ease;
+
+    
+    letter-spacing: 2px;
+    font-size: 10px;
+    
+}
+button2:hover{
+    color: blue;
+    
+    background:blue;
+    box-shadow: 0 0 5px gray,0 0 10px gray,0 0 20px gray;
+}
+h5{
+    color: azure;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+}
+h6{
+    color: azure;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}   
+{
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    
+    border-radius: 15px;
+    background-color:lightblue;
+    background-size: 100% 200%;
+    margin-bottom: 3px;
+    
+}
+h7{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    
+    border-radius: 15px;
+    background-color:lightblue;
+    background-size: 100% 200%;
+    margin-bottom: 3px;
+}
+h8{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    
+    border-radius: 15px;
+    background-color:lightblue;
+    background-size: 100% 200%;
+    margin-bottom: 3px;
+}
+h9{
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+h10{
+    color: azure;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 200px;
+}
+.contact .icons-container{
+    display: flex;
+    gap: 0.5 rem;
+    flex-wrap: wrap;
+}
+.contact .icons-container.icons{
+    text-align: center;
+    padding: 0.1rem;
+    background: #fff;
+    border-radius: .5rem;
+}
+.box2{
+    display:flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 500px;
+    
+    border-radius: 15px;
+    background-color:rgb(36, 93, 112);
+    
+    margin-bottom: 3px;
+}
+.p{
+    font-size: larger;
+    text-align: center;
+}
+.box3{
+    display:flex;
+    flex-direction: column;
+    width: 1300px;
+    height: 500px;
+    
+    border-radius: 15px;
+    background-color:rgb(3, 18, 24);
+    
+    margin-bottom: 3px;
+}
+.img{
+    align-items: center;
+}
+h3{
+    background-color: rgb(118, 76, 158);
+    color: azure;
+    text-align: left;
+    
+}
+.box4{
+    display:flex;
+    flex-direction: row;
+    width: 1300px;
+    height: 200px;
+    padding-top: 10px;
+    border-radius: 15px;
+    background-color:rgb(75, 132, 155);
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
